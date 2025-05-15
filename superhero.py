@@ -16,7 +16,7 @@ class FlyingHero(Superhero):
     def introduce(self):
         print(f"I'm {self.name}, I fly at {self.flight_speed} km/h from {self.origin}!")
 
-# Testing
+
 if __name__ == "__main__":
     hero1 = Superhero("TechMan", "machines", "Nakuru")
     hero2 = FlyingHero("Sky", "home", 300)
